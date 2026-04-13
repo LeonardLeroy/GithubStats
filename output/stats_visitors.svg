@@ -220,7 +220,7 @@
           <tr class="repo-row" style="height: 20px; animation-delay: 1.775s;">
           <td class="repo-name" style="width: 186px; text-align: center;">
             <div style="display: flex; align-items: center; justify-content: center;">
-              <span style="margin-left: 10px; max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">LeonardLeroy.github.io</span>
+              <span style="margin-left: 10px; max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">EcoCode</span>
             </div>
           </td>
           <td class="unique-count" style="width: 130px; text-align: center;">2</td>
@@ -229,29 +229,29 @@
           <tr class="repo-row" style="height: 20px; animation-delay: 2.15s;">
           <td class="repo-name" style="width: 186px; text-align: center;">
             <div style="display: flex; align-items: center; justify-content: center;">
-              <span style="margin-left: 10px; max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">42sh</span>
+              <span style="margin-left: 10px; max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">LeonardLeroy.github.io</span>
             </div>
           </td>
-          <td class="unique-count" style="width: 130px; text-align: center;">1</td>
+          <td class="unique-count" style="width: 130px; text-align: center;">2</td>
           <td class="date-range" style="width: 120px; text-align: center;">30.03 - 12.04</td>
         </tr>
           <tr class="repo-row" style="height: 20px; animation-delay: 2.525s;">
           <td class="repo-name" style="width: 186px; text-align: center;">
             <div style="display: flex; align-items: center; justify-content: center;">
-              <span style="margin-left: 10px; max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">CyberCodeOnline</span>
+              <span style="margin-left: 10px; max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Wolf3d</span>
             </div>
           </td>
-          <td class="unique-count" style="width: 130px; text-align: center;">1</td>
-          <td class="date-range" style="width: 120px; text-align: center;">29.03 - 11.04</td>
+          <td class="unique-count" style="width: 130px; text-align: center;">2</td>
+          <td class="date-range" style="width: 120px; text-align: center;">30.03 - 12.04</td>
         </tr>
           <tr class="repo-row" style="height: 20px; animation-delay: 2.9s;">
           <td class="repo-name" style="width: 186px; text-align: center;">
             <div style="display: flex; align-items: center; justify-content: center;">
-              <span style="margin-left: 10px; max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">GithubStats</span>
+              <span style="margin-left: 10px; max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">42sh</span>
             </div>
           </td>
           <td class="unique-count" style="width: 130px; text-align: center;">1</td>
-          <td class="date-range" style="width: 120px; text-align: center;">29.03 - 11.04</td>
+          <td class="date-range" style="width: 120px; text-align: center;">30.03 - 12.04</td>
         </tr>
         </tbody>
       </table>
