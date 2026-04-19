@@ -43,11 +43,11 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Sync with remote main
+      - name: Switch to the main branch
         run: |
           git fetch origin main
           git checkout main
-          git pull --rebase origin main
+          git pull origin main
 
       - name: Indexing and adding SVG
         run: |
@@ -57,10 +57,13 @@ jobs:
         run: |
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
             git commit -m "chore: update GitHub stats SVG (manual run)" --allow-empty
+            git push origin main
           else
-            git commit -m "chore: update GitHub stats SVG" || echo "No changes"
-          fi
-
-          git push origin main
+            if git diff --cached --quiet; then
+              echo "No changes found, commit skipped."
+            else
+              git commit -m "chore: update GitHub stats SVG"
+              git push origin main
+            fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
