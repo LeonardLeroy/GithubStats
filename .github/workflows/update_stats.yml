@@ -65,5 +65,6 @@ jobs:
               git commit -m "chore: update GitHub stats SVG"
               git push origin main
             fi
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
