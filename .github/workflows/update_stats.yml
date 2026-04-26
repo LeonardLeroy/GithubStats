@@ -57,13 +57,13 @@ jobs:
         run: |
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
             git commit -m "chore: update GitHub stats SVG (manual run)" --allow-empty
-            git push origin main
+            git push origin ${{ github.event.repository.default_branch }}
           else
             if git diff --cached --quiet; then
               echo "No changes found, commit skipped."
             else
               git commit -m "chore: update GitHub stats SVG"
-              git push origin main
+              git push origin ${{ github.event.repository.default_branch }}
             fi
           fi
         env:
